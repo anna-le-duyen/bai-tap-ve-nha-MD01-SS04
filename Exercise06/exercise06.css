@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    max-width: 450px;
+    width: 100%;
+    padding: 20px;
+}
+.quote-box {
+    background-color: #fef9e7; 
+    border: 1px solid #f4d03f; 
+    border-left: 6px solid #f4d03f; 
+    padding: 35px 25px;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+.quote-title {
+    color: #1f3a93;
+    font-size: 26px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.quote-content {
+    color: #2c3e50;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+/* ======================================================= */
+/* ĐỊNH DẠNG NÚT BẤM TRẠNG THÁI BÌNH THƯỜNG */
+/* ======================================================= */
+.btn-readmore {
+    background-color: #ffffff;
+    color: #333333;            
+    border: 1px solid #cccccc;
+    padding: 8px 24px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+/* ======================================================= */
+/* HIỆU ỨNG HOVER: DI CHUỘT VÀO BUTTON CHUYỂN SANG NỀN XANH LÁ, CHỮ TRẮNG */
+/* ======================================================= */
+.btn-readmore:hover {
+    background-color: #27ae60;
+    color: #ffffff;            
+    border-color: #27ae60;
+}
