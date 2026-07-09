@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 05: Nhúng CSS vào trang web</title>
+    <style>
+        .internal-section h1 {
+            color: #2e4053; 
+        }
+        .internal-section .main-text {
+            color: #27ae60; 
+        }
+    </style>
+    <link rel="stylesheet" href="./exercise05.css">
+</head>
+<body>
+
+    <!-- ========================================== -->
+    <!-- PHẦN 1: HÃY THAY ĐỔI MÀU SẮC SỬ DỤNG INLINE-STYLE -->
+    <!-- ========================================== -->
+    <div class="section-block">
+        <h3 class="part-title">Phần 1: Sử dụng Inline-style</h3>
+        <h1 style="color: #e67e22;">What is CSS?</h1>
+        <p class="main-text" style="color: #2980b9;">
+            <span style="font-weight: bold; color: #c0392b;">Cascading Style Sheets (CSS)</span> is used to format the layout of a webpage.
+            <br /> With CSS, you can control the color, font, the size of text, the spacing between elements, how elements are positioned and laid out, what background images or background colors are to be used, different displays for different devices and screen sizes, and much more!
+        </p>
+        <div class="tip-box">
+            <p>
+                <span class="tip-title">Tip:</span> The word <span class="highlight-orange">cascading</span> means that a style applied to a parent element will also apply to all children elements within the parent. So, if you set the color of the body text to "blue", all headings, paragraphs, and other text elements within the body will also get the same color (unless you specify something else)!
+            </p>
+        </div>
+    </div>
+
+
+    <!-- ========================================== -->
+    <!-- PHẦN 2: HÃY THAY ĐỔI MÀU SẮC SỬ DỤNG INTERNAL-STYLE -->
+    <!-- ========================================== -->
+    <div class="section-block internal-section">
+        <h3 class="part-title">Phần 2: Sử dụng Internal-style</h3>
+        <h1>What is CSS?</h1>
+        <p class="main-text">
+            <span class="highlight-bold">Cascading Style Sheets (CSS)</span> is used to format the layout of a webpage. 
+            <br />With CSS, you can control the color, font, the size of text, the spacing between elements, how elements are positioned and laid out, what background images or background colors are to be used, different displays for different devices and screen sizes, and much more!
+        </p>
+        <div class="tip-box">
+            <p>
+                <span class="tip-title">Tip:</span> The word <span class="highlight-orange">cascading</span> means that a style applied to a parent element will also apply to all children elements within the parent. So, if you set the color of the body text to "blue", all headings, paragraphs, and other text elements within the body will also get the same color (unless you specify something else)!
+            </p>
+        </div>
+    </div>
+
+
+    <!-- ========================================== -->
+    <!-- PHẦN 3: HÃY THAY ĐỔI MÀU SẮC SỬ DỤNG EXTERNAL-STYLE -->
+    <!-- ========================================== -->
+    <div class="section-block external-section">
+        <h3 class="part-title">Phần 3: Sử dụng External-style</h3>
+        <h1>What is CSS?</h1>
+        <p class="main-text">
+            <span class="highlight-blue">Cascading Style Sheets (CSS)</span> is used to format the layout of a webpage.
+            <br /> With CSS, you can control the color, font, the size of text, the spacing between elements, how elements are positioned and laid out, what background images or background colors are to be used, different displays for different devices and screen sizes, and much more!
+        </p>
+        <div class="tip-box">
+            <p>
+                <span class="tip-title">Tip:</span> The word <span class="highlight-orange">cascading</span> means that a style applied to a parent element will also apply to all children elements within the parent. So, if you set the color of the body text to "blue", all headings, paragraphs, and other text elements within the body will also get the same color (unless you specify something else)!
+            </p>
+        </div>
+    </div>
+</body>
+</html>
